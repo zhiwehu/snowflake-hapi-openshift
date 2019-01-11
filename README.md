@@ -42,7 +42,7 @@ web and mobile to microservices and APIs, and validate performance at every soft
   contains a "Session Token" for subsequent authentication.
 
 * **Login** When the user logs in with their username and password,
-the sytem responds with a "Session Token".
+the system responds with a "Session Token".
 
 * **Log Out** When the user logs out, the Session Token is blacklisted
   using Redis.  Every entry point to the server that requires
